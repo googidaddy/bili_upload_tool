@@ -42,6 +42,6 @@ Finally you can visit the website like <u>yoursite:9090</u>
 
 Donate for a coffee!
 
-<img src="https://raw.githubusercontent.com/googidaddy/img/master/wx_qr.jpg" alt="donate by wechat" style="zoom:27%;" />
+<img src="https://raw.githubusercontent.com/googidaddy/img/master/wx_qr.jpg" alt="donate by wechat" style="zoom:17%;" />
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/alipay.jpg" alt="alipay" style="zoom:60%;" />
