@@ -3,10 +3,9 @@ from re import sub
 from bilisession import BiliSession, Submission
 from providers import DownloadResult
 from providers import youtube
-from flask import Flask, render_template, request
-from utils import prepare_temp, report_progress, save_cookies, load_cookies, prase_args, sanitize_string, \
+from utils import prepare_temp, report_progress, save_cookies, load_cookies,  sanitize_string, \
     truncate_string, local_args as largs
-# from utils import prepare_temp,report_progress,save_cookies,load_cookies,sanitize_string,truncate_string,local_args as largs
+from utils import global_args
 import sys, time, urllib.parse
 from loguru import logger
 
@@ -14,21 +13,18 @@ sess = BiliSession()
 logger.add("err.log", encoding="utf-8", enqueue=True)
 
 
-# sess.verify = False
 
 def download_sources(arg) -> DownloadResult:
-    resource = arg['resource']  # 来自参数的Youtube link 'https://www.youtube.com/watch?v=3BBb'
-    opts = arg['opts']  # opts: {'format': ['best']}
+    resource = arg['resource']  
+    opts = arg['opts']  
     if arg['desc_fmt'] != '':
         desc = arg['desc_fmt']
     try:
         opts = urllib.parse.parse_qs(opts)
-        #  下面参数provider 提供的是位置-->youtube.py
         youtube.update_config({k: v[-1] for k, v in opts.items()})  # k: 'format' v: ['best']
     except:
         opts = 'INVALID OPTIONS'
 
-    # 这里logger 可以删除或者替换
     '''Passing options'''
     # logger.info('Fectching source video')
     # logger.info('  - Type: %s - %s' % (provider.__name__,provider.__desc__))
@@ -36,13 +32,12 @@ def download_sources(arg) -> DownloadResult:
     for k, v in largs.items(): logger.info('  - %s : %s' % (v[0], arg[k]))
     '''Downloading source'''
     try:
-        #  把link 传进resource --> youtube.py
+       
         return youtube.download_video(resource, desc)
     except Exception as e:
         logger.error('Cannot download specified resource - %s' % e)
         return
 
-    # arg = {'cookies': '', 'show_progress': 1, 'opts': 'format=best', 'thread_id': 17, 'tags': '战地5', 'desc_fmt': '%(desc)s', 'title_fmt': '战地5|怎么了？', 'seperate_parts': 1, 'no_upload': 0, 'localfile': None, 'youtube': 'https://www.youtube.com/watch?v=GD0PfRAxkOw', 'resource': 'https://www.youtube.com/watch?v=GD0PfRAxkOw'}
 
 
 def upload_sources(sources: DownloadResult, arg, report=report_progress):
@@ -60,7 +55,6 @@ def upload_sources(sources: DownloadResult, arg, report=report_progress):
             - See `utils.local_args` for more arguments,along with thier details
         report : A function takes (current,max) to show progress of the upload
     '''
-    # 初始化一个Submission --> bilisession\__init__.py\Submission 相当于初始化参数
     submission = Submission()
     if not sources: return None, True
     logger.info('Processing total of %s sources' % len(sources.results))
@@ -69,14 +63,12 @@ def upload_sources(sources: DownloadResult, arg, report=report_progress):
         blocks = {'title': title, 'desc': desc, **kw}
         return sanitize_string(truncate_string(arg['title_fmt'] % blocks, 80)), sanitize_string(
             truncate_string(arg['desc_fmt'] % blocks, 2000))
-        # source --> providers.__init__.DownloadResult  一个对象含有视频的object
 
     for source in sources.results:
         '''If one or multipule sources'''
         title, description = sanitize(source.title, source.description)
         logger.info('Uploading: %s' % title)
         '''Summary trimming'''
-        #  下面是声明对象，值为空
         basename, size, endpoint, config, state, pic = [None] * 6
         while True:
             try:
@@ -123,7 +115,6 @@ def upload_sources(sources: DownloadResult, arg, report=report_progress):
         else:
             logger.warning('Upload Failed: %s' % result['message'])
             dirty = True
-    # {'code': 0, 'results': [{'code': 0, 'message': '0', 'ttl': 1, 'data': {'aid': 929629450, 'bvid': 'BV1tK4y1U7vf'}}]}
     return submit_result, dirty
 
 
@@ -132,31 +123,27 @@ def setup_session(cookies: str):
     return prepare_temp() and sess.load_cookies(cookies)
 
 
-global_args = {'cookies': 'SESSDATA=2c7b4d00%2C1628227735%2Cd3be4%2A21;bili_jct=80d0f7cd09e87be303a3a07d2b3539ca',
-               'show_progress': 1}
 
 
 def __tasks__(local_args):
     logger.info('Total tasks: %s' % len(local_args))
     success, failure = [], []
     for arg in local_args:
-        sources = download_sources(arg)  # 添加Youtube Link
+        sources = download_sources(arg)  
         if arg['no_upload']:
-            # error则no_upload为0
             logger.warning('Not uploading - no_upload sepceified on this resource')
         else:
-            # 上传sources
+            
             result, dirty = upload_sources(sources, arg,
                                            report_progress if global_args['show_progress'] else lambda current,
                                                                                                        max: None)
             if not dirty:
-                # {'code': 0, 'results': [{'code': 0, 'message': '0', 'ttl': 1, 'data': {'aid': 929629450, 'bvid': 'BV1tK4y1U7vf'}}]}
                 success.append((arg, result))
             else:
                 failure.append((arg, None))
     if not failure: return result['results'][0]['data']['bvid']
     logger.warning('Dirty flag set,not all tasks are done properly')
-    return '上传失败'
+    return 'upload failed'
 
 
 def start(a):

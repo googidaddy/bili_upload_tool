@@ -175,7 +175,6 @@ class SubmissionVideos(list):
         self.parent = parent
         super().__init__()
 
-#  这里返回给
 class Submission:
     '''Submission meta set'''
     COPYRIGHT_SELF_MADE = 1
@@ -246,7 +245,6 @@ class Submission:
     # endregion
     def __init__(self) -> None:
         self.tags = []
-        # 构建对象
         self.videos = SubmissionVideos(self)
     def __enter__(self):
         '''Creates a new,empty submission'''
@@ -292,7 +290,6 @@ class BiliSession(Session):
         self.load_cookies(cookies)
         self.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36'
         logger.info("Session建立成功!")
-        # self.logger = logging.getLogger('BiliSession')
     
     def load_cookies(self,cookies:str):
         '''Load cookies from query string'''
@@ -321,7 +318,7 @@ class BiliSession(Session):
             'ssl': 0,
             'version': BUILD_STR,
             'build': BUILD_NO,
-            'upcdn': 'ws',
+            'upcdn': 'bda2',
             'probe_version': BUILD_NO
         })
 
@@ -427,11 +424,10 @@ class BiliSession(Session):
         Returns:
             File basename,File size,Upload Endpoint,Remote Config,Upload Status
         '''
-        # path = "视频名字.mp4"
         def load_file(path):
             size = os.stat(path).st_size
             return path, os.path.basename(path), size
-        path, basename, size = load_file(path) #size = 计算出来
+        path, basename, size = load_file(path) 
         self.logger.debug('Opened file %s (%s B) for reading' % (basename,size))
         '''Loading files'''
         def generate_upload_chunks(name, size):
