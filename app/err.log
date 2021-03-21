@@ -1,0 +1,364 @@
+2021-03-19 23:13:49.486 | WARNING  | __main__:<module>:140 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:13:52.668 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:13:52.700 | INFO     | __main__:download_sources:20 - Fectching source video
+2021-03-19 23:13:52.702 | INFO     | __main__:download_sources:21 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:13:52.703 | INFO     | __main__:download_sources:22 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:13:52.705 | INFO     | __main__:download_sources:23 -   - 解析设置 : format=best
+2021-03-19 23:13:52.706 | INFO     | __main__:download_sources:23 -   - 分区 ID : 21
+2021-03-19 23:13:52.707 | INFO     | __main__:download_sources:23 -   - 标签 : 动漫
+2021-03-19 23:13:52.709 | INFO     | __main__:download_sources:23 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:13:52.710 | INFO     | __main__:download_sources:23 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:13:52.712 | INFO     | __main__:download_sources:23 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:13:52.714 | INFO     | __main__:download_sources:23 -   - 只下载资源 : 0
+2021-03-19 23:13:54.055 | ERROR    | __main__:download_sources:28 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-19 23:13:54.059 | WARNING  | __main__:__tasks__:123 - Dirty flag set,not all tasks are done properly
+2021-03-19 23:15:04.404 | WARNING  | __main__:<module>:140 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:15:30.480 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:15:42.308 | INFO     | __main__:download_sources:20 - Fectching source video
+2021-03-19 23:15:42.310 | INFO     | __main__:download_sources:21 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:15:42.312 | INFO     | __main__:download_sources:22 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:15:42.313 | INFO     | __main__:download_sources:23 -   - 解析设置 : format=best
+2021-03-19 23:15:42.315 | INFO     | __main__:download_sources:23 -   - 分区 ID : 21
+2021-03-19 23:15:42.316 | INFO     | __main__:download_sources:23 -   - 标签 : 动漫
+2021-03-19 23:15:42.318 | INFO     | __main__:download_sources:23 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:15:42.319 | INFO     | __main__:download_sources:23 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:15:42.321 | INFO     | __main__:download_sources:23 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:15:42.322 | INFO     | __main__:download_sources:23 -   - 只下载资源 : 0
+2021-03-19 23:15:43.686 | ERROR    | __main__:download_sources:28 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-19 23:16:07.181 | WARNING  | __main__:__tasks__:123 - Dirty flag set,not all tasks are done properly
+2021-03-19 23:16:13.912 | WARNING  | __main__:<module>:140 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:16:20.957 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:17:16.762 | INFO     | __main__:download_sources:20 - Fectching source video
+2021-03-19 23:18:29.874 | INFO     | __main__:download_sources:21 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:18:55.479 | INFO     | __main__:download_sources:22 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:19:22.370 | INFO     | __main__:download_sources:23 -   - 解析设置 : format=best
+2021-03-19 23:19:30.199 | INFO     | __main__:download_sources:23 -   - 分区 ID : 21
+2021-03-19 23:19:37.746 | INFO     | __main__:download_sources:23 -   - 标签 : 动漫
+2021-03-19 23:20:43.854 | INFO     | __main__:download_sources:23 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:20:47.262 | INFO     | __main__:download_sources:23 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:21:36.167 | INFO     | __main__:download_sources:23 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:21:38.166 | INFO     | __main__:download_sources:23 -   - 只下载资源 : 0
+2021-03-19 23:22:50.906 | ERROR    | __main__:download_sources:28 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-19 23:22:50.909 | WARNING  | __main__:__tasks__:123 - Dirty flag set,not all tasks are done properly
+2021-03-19 23:28:21.232 | WARNING  | __main__:<module>:140 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:28:21.746 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:28:21.778 | INFO     | __main__:download_sources:20 - Fectching source video
+2021-03-19 23:28:21.781 | INFO     | __main__:download_sources:21 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:28:21.783 | INFO     | __main__:download_sources:22 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:28:21.784 | INFO     | __main__:download_sources:23 -   - 解析设置 : format=best
+2021-03-19 23:28:21.785 | INFO     | __main__:download_sources:23 -   - 分区 ID : 21
+2021-03-19 23:28:21.787 | INFO     | __main__:download_sources:23 -   - 标签 : 动漫
+2021-03-19 23:28:21.788 | INFO     | __main__:download_sources:23 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:28:21.790 | INFO     | __main__:download_sources:23 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:28:21.791 | INFO     | __main__:download_sources:23 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:28:21.793 | INFO     | __main__:download_sources:23 -   - 只下载资源 : 0
+2021-03-19 23:28:23.229 | ERROR    | __main__:download_sources:28 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-19 23:28:23.232 | WARNING  | __main__:__tasks__:123 - Dirty flag set,not all tasks are done properly
+2021-03-19 23:38:18.813 | WARNING  | __main__:<module>:141 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:38:21.025 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:38:21.060 | INFO     | __main__:download_sources:20 - Fectching source video
+2021-03-19 23:38:21.063 | INFO     | __main__:download_sources:21 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:38:21.065 | INFO     | __main__:download_sources:22 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:38:21.067 | INFO     | __main__:download_sources:23 -   - 解析设置 : format=best
+2021-03-19 23:38:21.069 | INFO     | __main__:download_sources:23 -   - 分区 ID : 21
+2021-03-19 23:38:21.071 | INFO     | __main__:download_sources:23 -   - 标签 : 动漫
+2021-03-19 23:38:21.073 | INFO     | __main__:download_sources:23 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:38:21.075 | INFO     | __main__:download_sources:23 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:38:21.078 | INFO     | __main__:download_sources:23 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:38:21.080 | INFO     | __main__:download_sources:23 -   - 只下载资源 : 0
+2021-03-19 23:38:22.443 | ERROR    | __main__:download_sources:28 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-19 23:38:22.447 | WARNING  | __main__:__tasks__:123 - Dirty flag set,not all tasks are done properly
+2021-03-19 23:40:51.127 | WARNING  | __main__:<module>:143 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:41:04.239 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:42:25.313 | WARNING  | __main__:<module>:143 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:42:33.915 | INFO     | __main__:__tasks__:111 - Total tasks: 1
+2021-03-19 23:54:00.624 | WARNING  | __main__:<module>:145 - Bilibili-toolman - operating as 写我的笔
+2021-03-19 23:54:13.811 | INFO     | __main__:__tasks__:112 - Total tasks: 1
+2021-03-19 23:57:28.780 | INFO     | __main__:download_sources:21 - Fectching source video
+2021-03-19 23:57:44.183 | INFO     | __main__:download_sources:22 -   - Type: providers.youtube - Youtube 视频
+2021-03-19 23:57:46.133 | INFO     | __main__:download_sources:23 -   - URI : https://www.youtube.com/watch?v=3BBb
+2021-03-19 23:57:46.574 | INFO     | __main__:download_sources:24 -   - 解析设置 : format=best
+2021-03-19 23:57:48.822 | INFO     | __main__:download_sources:24 -   - 分区 ID : 21
+2021-03-19 23:57:49.385 | INFO     | __main__:download_sources:24 -   - 标签 : 动漫
+2021-03-19 23:57:51.511 | INFO     | __main__:download_sources:24 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-19 23:57:52.041 | INFO     | __main__:download_sources:24 -   - 标题格式 e.g. ％(title)s : 夏天女孩
+2021-03-19 23:58:08.882 | INFO     | __main__:download_sources:24 -   - 多个视频独立投稿（不分P） : 1
+2021-03-19 23:58:11.891 | INFO     | __main__:download_sources:24 -   - 只下载资源 : 0
+2021-03-20 00:02:51.746 | ERROR    | __main__:download_sources:29 - Cannot download specified resource - ERROR: Incomplete YouTube ID 3BBb. URL https://www.youtube.com/watch?v=3BBb looks truncated.
+2021-03-20 00:06:56.900 | WARNING  | __main__:__tasks__:124 - Dirty flag set,not all tasks are done properly
+2021-03-20 09:38:51.754 | WARNING  | __main__:<module>:149 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 09:39:09.802 | WARNING  | __main__:<module>:149 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 09:39:32.457 | INFO     | __main__:__tasks__:115 - Total tasks: 1
+2021-03-20 09:42:51.198 | INFO     | __main__:download_sources:26 -   - 解析设置 : format=best
+2021-03-20 09:43:05.373 | INFO     | __main__:download_sources:26 -   - 分区 ID : 17
+2021-03-20 09:43:13.030 | INFO     | __main__:download_sources:26 -   - 标签 : 战地5
+2021-03-20 09:43:13.709 | INFO     | __main__:download_sources:26 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 09:43:14.339 | INFO     | __main__:download_sources:26 -   - 标题格式 e.g. ％(title)s : 战地5|怎么了？
+2021-03-20 09:43:14.872 | INFO     | __main__:download_sources:26 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 10:32:30.098 | INFO     | __main__:download_sources:26 -   - 只下载资源 : 0
+2021-03-20 10:35:16.072 | INFO     | __main__:upload_sources:52 - Processing total of 1 sources
+2021-03-20 10:43:04.317 | INFO     | __main__:upload_sources:59 - Uploading: 战地5|怎么了
+2021-03-20 10:47:43.135 | WARNING  | __main__:upload_sources:68 - Failed to upload ('BiliSession' object has no attribute 'logger') - skipping
+2021-03-20 10:53:22.947 | WARNING  | __main__:<module>:155 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 10:53:25.539 | INFO     | __main__:__tasks__:121 - Total tasks: 1
+2021-03-20 10:53:34.921 | INFO     | __main__:download_sources:29 -   - 解析设置 : format=best
+2021-03-20 10:53:41.126 | INFO     | __main__:download_sources:29 -   - 分区 ID : 17
+2021-03-20 10:53:41.865 | INFO     | __main__:download_sources:29 -   - 标签 : 战地5
+2021-03-20 10:53:44.276 | INFO     | __main__:download_sources:29 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 10:53:44.716 | INFO     | __main__:download_sources:29 -   - 标题格式 e.g. ％(title)s : 战地5|怎么了？
+2021-03-20 10:53:46.191 | INFO     | __main__:download_sources:29 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 10:54:09.998 | INFO     | __main__:download_sources:29 -   - 只下载资源 : 0
+2021-03-20 10:55:58.496 | INFO     | __main__:upload_sources:56 - Processing total of 1 sources
+2021-03-20 11:01:31.638 | INFO     | __main__:upload_sources:64 - Uploading: 战地5|怎么了
+2021-03-20 11:02:03.762 | WARNING  | __main__:upload_sources:74 - Failed to upload ('BiliSession' object has no attribute 'logger') - skipping
+2021-03-20 11:04:49.244 | WARNING  | __main__:<module>:157 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 11:04:52.678 | INFO     | __main__:__tasks__:122 - Total tasks: 1
+2021-03-20 11:04:55.180 | INFO     | __main__:download_sources:29 -   - 解析设置 : format=best
+2021-03-20 11:04:55.369 | INFO     | __main__:download_sources:29 -   - 分区 ID : 17
+2021-03-20 11:04:55.888 | INFO     | __main__:download_sources:29 -   - 标签 : 战地5
+2021-03-20 11:04:56.076 | INFO     | __main__:download_sources:29 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 11:04:56.504 | INFO     | __main__:download_sources:29 -   - 标题格式 e.g. ％(title)s : 战地5|怎么了？
+2021-03-20 11:04:56.692 | INFO     | __main__:download_sources:29 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 11:04:57.196 | INFO     | __main__:download_sources:29 -   - 只下载资源 : 0
+2021-03-20 11:05:07.425 | INFO     | __main__:upload_sources:57 - Processing total of 1 sources
+2021-03-20 11:05:07.433 | INFO     | __main__:upload_sources:65 - Uploading: 战地5|怎么了
+2021-03-20 11:05:07.435 | DEBUG    | bilisession:UploadVideo:435 - Opened file GD0PfRAxkOw.mp4 (15224203 B) for reading
+2021-03-20 11:05:07.737 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws3qhsz9l8adl3iunotna2ie4.mp4
+2021-03-20 11:05:07.741 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 11:05:08.092 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 2
+2021-03-20 11:05:08.095 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 11:05:08.097 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 11:05:08.099 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 11:05:20.535 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 11:05:20.924 | INFO     | __main__:upload_sources:79 - Upload complete
+2021-03-20 11:05:21.073 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 11:05:21.076 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `战地5|怎么了`
+2021-03-20 11:05:21.161 | INFO     | __main__:upload_sources:109 - Upload success - BVid: BV1kZ4y1w7HB
+2021-03-20 11:11:44.090 | WARNING  | __main__:<module>:157 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 11:11:44.094 | INFO     | __main__:__tasks__:122 - Total tasks: 1
+2021-03-20 11:16:58.849 | WARNING  | __main__:<module>:157 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 11:17:02.778 | INFO     | __main__:__tasks__:122 - Total tasks: 1
+2021-03-20 12:31:16.233 | INFO     | __main__:download_sources:29 -   - 解析设置 : format=best
+2021-03-20 12:31:17.315 | INFO     | __main__:download_sources:29 -   - 分区 ID : 21
+2021-03-20 12:31:18.166 | INFO     | __main__:download_sources:29 -   - 标签 : PS5
+2021-03-20 12:31:18.846 | INFO     | __main__:download_sources:29 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 12:31:19.319 | INFO     | __main__:download_sources:29 -   - 标题格式 e.g. ％(title)s : PS历代销量
+2021-03-20 12:31:19.602 | INFO     | __main__:download_sources:29 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 12:31:20.011 | INFO     | __main__:download_sources:29 -   - 只下载资源 : 0
+2021-03-20 12:31:39.292 | INFO     | __main__:upload_sources:57 - Processing total of 1 sources
+2021-03-20 12:31:39.300 | INFO     | __main__:upload_sources:65 - Uploading: PS历代销量
+2021-03-20 12:31:39.303 | DEBUG    | bilisession:UploadVideo:435 - Opened file o917LH06WSA.mp4 (9317611 B) for reading
+2021-03-20 12:31:39.682 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws3oxfp0l7zqsgy151oyy0pc7.mp4
+2021-03-20 12:31:39.685 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 12:31:40.048 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 12:31:41.407 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws124kqxb2b1rykfvgioz6ho0.mp4
+2021-03-20 12:31:41.410 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (2)
+2021-03-20 12:31:41.626 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 12:31:42.935 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws5sd8h5dtrs9l3nze50jltza.mp4
+2021-03-20 12:31:42.938 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (3)
+2021-03-20 12:31:43.149 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 12:31:44.364 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2t7lnl35rvty2bor6i5xr4o.mp4
+2021-03-20 12:31:44.367 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (4)
+2021-03-20 12:31:44.588 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 2
+2021-03-20 12:31:44.590 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 12:31:44.592 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 12:31:44.593 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 12:31:52.443 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 12:31:52.802 | INFO     | __main__:upload_sources:79 - Upload complete
+2021-03-20 12:31:52.909 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 12:31:52.913 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `PS历代销量`
+2021-03-20 12:31:53.022 | INFO     | __main__:upload_sources:109 - Upload success - BVid: BV1wz4y1279b
+2021-03-20 12:55:41.855 | WARNING  | __main__:<module>:159 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 12:55:41.859 | INFO     | __main__:__tasks__:123 - Total tasks: 1
+2021-03-20 12:57:25.292 | WARNING  | __main__:<module>:159 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 12:57:25.296 | INFO     | __main__:__tasks__:123 - Total tasks: 1
+2021-03-20 12:57:46.963 | INFO     | __main__:download_sources:30 -   - 解析设置 : format=best
+2021-03-20 12:57:48.181 | INFO     | __main__:download_sources:30 -   - 分区 ID : 27
+2021-03-20 12:57:48.751 | INFO     | __main__:download_sources:30 -   - 标签 : 02,国家队,zero two
+2021-03-20 12:57:49.886 | INFO     | __main__:download_sources:30 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 12:57:50.344 | INFO     | __main__:download_sources:30 -   - 标题格式 e.g. ％(title)s : 粉丝自制02合集-34
+2021-03-20 12:57:50.913 | INFO     | __main__:download_sources:30 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 12:57:51.355 | INFO     | __main__:download_sources:30 -   - 只下载资源 : 0
+2021-03-20 12:59:18.696 | INFO     | __main__:upload_sources:58 - Processing total of 1 sources
+2021-03-20 12:59:18.705 | INFO     | __main__:upload_sources:66 - Uploading: 粉丝自制02合集-34
+2021-03-20 12:59:18.707 | DEBUG    | bilisession:UploadVideo:435 - Opened file tTetHIeMbX0.mp4 (966145 B) for reading
+2021-03-20 12:59:19.043 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws23lzcf86eitgu28ij98tiom.mp4
+2021-03-20 12:59:19.046 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 12:59:19.438 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 1
+2021-03-20 12:59:19.440 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 12:59:19.441 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 12:59:19.443 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 12:59:20.175 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 12:59:20.511 | INFO     | __main__:upload_sources:80 - Upload complete
+2021-03-20 12:59:20.695 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 12:59:20.698 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `粉丝自制02合集-34`
+2021-03-20 12:59:20.798 | INFO     | __main__:upload_sources:110 - Upload success - BVid: BV1bK4y1T7Zk
+2021-03-20 13:40:36.077 | WARNING  | __main__:start:172 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 13:40:45.691 | INFO     | __main__:__tasks__:138 - Total tasks: 1
+2021-03-20 13:40:49.525 | INFO     | __main__:download_sources:35 -   - 解析设置 : format=best
+2021-03-20 13:40:49.528 | INFO     | __main__:download_sources:35 -   - 分区 ID : 27
+2021-03-20 13:40:49.530 | INFO     | __main__:download_sources:35 -   - 标签 : 02,国家队,zero two
+2021-03-20 13:40:49.531 | INFO     | __main__:download_sources:35 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 13:40:49.532 | INFO     | __main__:download_sources:35 -   - 标题格式 e.g. ％(title)s : 粉丝自制02合集-35
+2021-03-20 13:40:49.534 | INFO     | __main__:download_sources:35 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 13:40:49.535 | INFO     | __main__:download_sources:35 -   - 只下载资源 : 0
+2021-03-20 13:50:12.025 | INFO     | __main__:upload_sources:65 - Processing total of 1 sources
+2021-03-20 13:52:38.491 | INFO     | __main__:upload_sources:76 - Uploading: 粉丝自制02合集-35
+2021-03-20 13:53:08.437 | DEBUG    | bilisession:UploadVideo:435 - Opened file bZS4IbQC20s.mp4 (8380299 B) for reading
+2021-03-20 13:53:08.818 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2bqmrlw52524m3ryebzwnpk.mp4
+2021-03-20 13:53:08.822 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 13:53:09.221 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 13:53:10.438 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2oflj547nvnug22tdfibx44.mp4
+2021-03-20 13:53:10.441 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (2)
+2021-03-20 13:53:10.658 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 13:53:12.060 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2o7y8au31au3k1bdud7niun.mp4
+2021-03-20 13:53:12.063 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (3)
+2021-03-20 13:53:12.283 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 13:53:13.556 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws3fxoeungvv34drxunnolzli.mp4
+2021-03-20 13:53:13.560 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (4)
+2021-03-20 13:53:13.768 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 1
+2021-03-20 13:53:13.770 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 13:53:13.772 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 13:53:13.774 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 13:53:20.617 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 13:53:39.843 | INFO     | __main__:upload_sources:90 - Upload complete
+2021-03-20 13:54:05.776 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 13:54:05.781 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `粉丝自制02合集-35`
+2021-03-20 13:54:05.863 | ERROR    | bilisession:SubmitVideo:557 - Error (21021): 稿件类型为转载时，转载来源不能为空 - skipping
+2021-03-20 13:54:05.865 | ERROR    | bilisession:SubmitVideo:558 - Video title: 粉丝自制02合集-35
+2021-03-20 13:54:05.867 | ERROR    | bilisession:SubmitVideo:559 - Video description:
+转发不易，喜欢点个赞!
+
+2021-03-20 13:54:18.848 | WARNING  | __main__:upload_sources:123 - Upload Failed: 稿件类型为转载时，转载来源不能为空
+2021-03-20 13:54:29.023 | WARNING  | __main__:__tasks__:155 - Dirty flag set,not all tasks are done properly
+2021-03-20 13:58:52.198 | WARNING  | __main__:start:172 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 13:58:52.198 | INFO     | __main__:__tasks__:138 - Total tasks: 1
+2021-03-20 13:58:52.229 | INFO     | __main__:download_sources:35 -   - 解析设置 : format=best
+2021-03-20 13:58:52.229 | INFO     | __main__:download_sources:35 -   - 分区 ID : 27
+2021-03-20 13:58:52.229 | INFO     | __main__:download_sources:35 -   - 标签 : 02,国家队,zero two
+2021-03-20 13:58:52.230 | INFO     | __main__:download_sources:35 -   - 描述格式 e.g. ％(desc)s : %(desc)s
+2021-03-20 13:58:52.231 | INFO     | __main__:download_sources:35 -   - 标题格式 e.g. ％(title)s : 粉丝自制02合集-35
+2021-03-20 13:58:52.231 | INFO     | __main__:download_sources:35 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 13:58:52.231 | INFO     | __main__:download_sources:35 -   - 只下载资源 : 0
+2021-03-20 13:58:53.007 | INFO     | __main__:upload_sources:65 - Processing total of 1 sources
+2021-03-20 13:58:53.009 | INFO     | __main__:upload_sources:76 - Uploading: 粉丝自制02合集-35
+2021-03-20 13:58:53.009 | DEBUG    | bilisession:UploadVideo:435 - Opened file bZS4IbQC20s.mp4 (8380299 B) for reading
+2021-03-20 13:58:53.390 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2emdwgy68rp8j2n1wvvnkcq.mp4
+2021-03-20 13:58:53.390 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 13:58:53.772 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 1
+2021-03-20 13:58:53.772 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 13:58:53.773 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 13:58:53.773 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 13:59:00.525 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 13:59:00.965 | INFO     | __main__:upload_sources:90 - Upload complete
+2021-03-20 13:59:01.219 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 13:59:01.219 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `粉丝自制02合集-35`
+2021-03-20 13:59:01.329 | INFO     | __main__:upload_sources:121 - Upload success - BVid: BV1si4y1K73U
+2021-03-20 14:06:26.657 | WARNING  | __main__:start:172 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 14:06:32.304 | INFO     | __main__:__tasks__:138 - Total tasks: 1
+2021-03-20 14:06:35.592 | INFO     | __main__:download_sources:35 -   - 解析设置 : format=best
+2021-03-20 14:06:35.593 | INFO     | __main__:download_sources:35 -   - 分区 ID : 27
+2021-03-20 14:06:35.593 | INFO     | __main__:download_sources:35 -   - 标签 : 02,国家队,zero two
+2021-03-20 14:06:35.593 | INFO     | __main__:download_sources:35 -   - 描述格式 e.g. ％(desc)s : 村民：又是阳光明媚的一天！
+2021-03-20 14:06:35.593 | INFO     | __main__:download_sources:35 -   - 标题格式 e.g. ％(title)s : 粉丝自制02合集-35
+2021-03-20 14:06:35.594 | INFO     | __main__:download_sources:35 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 14:06:35.594 | INFO     | __main__:download_sources:35 -   - 只下载资源 : 0
+2021-03-20 14:07:56.617 | WARNING  | __main__:start:172 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 14:07:59.916 | INFO     | __main__:__tasks__:138 - Total tasks: 1
+2021-03-20 14:09:06.749 | INFO     | __main__:download_sources:35 -   - 解析设置 : format=best
+2021-03-20 14:09:08.387 | INFO     | __main__:download_sources:35 -   - 分区 ID : 17
+2021-03-20 14:09:15.692 | INFO     | __main__:download_sources:35 -   - 标签 : 我的世界,minecraft
+2021-03-20 14:09:16.555 | INFO     | __main__:download_sources:35 -   - 描述格式 e.g. ％(desc)s : 村民：又是阳光明媚的一天！
+2021-03-20 14:09:20.988 | INFO     | __main__:download_sources:35 -   - 标题格式 e.g. ％(title)s : 我的世界|村民的一天
+2021-03-20 14:09:22.208 | INFO     | __main__:download_sources:35 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 14:09:23.436 | INFO     | __main__:download_sources:35 -   - 只下载资源 : 0
+2021-03-20 14:09:54.777 | INFO     | __main__:upload_sources:65 - Processing total of 1 sources
+2021-03-20 14:10:56.730 | INFO     | __main__:upload_sources:76 - Uploading: 我的世界|村民的一天
+2021-03-20 14:11:28.226 | DEBUG    | bilisession:UploadVideo:435 - Opened file xuIGZKSZ1K0.mp4 (7389859 B) for reading
+2021-03-20 14:11:28.854 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws6sfgzcekskndzb7iwahmj8e.mp4
+2021-03-20 14:11:28.855 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 14:11:29.229 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 1
+2021-03-20 14:11:29.229 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 14:11:29.230 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 14:11:29.230 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 14:11:35.600 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 14:11:41.027 | INFO     | __main__:upload_sources:90 - Upload complete
+2021-03-20 14:13:15.868 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 14:13:15.869 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `我的世界|村民的一天`
+2021-03-20 14:13:20.055 | INFO     | __main__:upload_sources:121 - Upload success - BVid: BV1Zz4y117Up
+2021-03-20 14:21:00.318 | WARNING  | __main__:start:173 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 14:21:00.318 | INFO     | __main__:__tasks__:139 - Total tasks: 1
+2021-03-20 14:21:00.352 | INFO     | __main__:download_sources:36 -   - 解析设置 : format=best
+2021-03-20 14:21:00.352 | INFO     | __main__:download_sources:36 -   - 分区 ID : 17
+2021-03-20 14:21:00.352 | INFO     | __main__:download_sources:36 -   - 标签 : 我的世界,minecraft
+2021-03-20 14:21:00.353 | INFO     | __main__:download_sources:36 -   - 描述格式 e.g. ％(desc)s : 村民：又是阳光明媚的一天！
+2021-03-20 14:21:00.353 | INFO     | __main__:download_sources:36 -   - 标题格式 e.g. ％(title)s : 我的世界|这是嘛曲？
+2021-03-20 14:21:00.353 | INFO     | __main__:download_sources:36 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 14:21:00.354 | INFO     | __main__:download_sources:36 -   - 只下载资源 : 0
+2021-03-20 14:21:02.954 | INFO     | __main__:upload_sources:66 - Processing total of 1 sources
+2021-03-20 14:21:02.956 | INFO     | __main__:upload_sources:77 - Uploading: 我的世界|这是嘛曲
+2021-03-20 14:21:02.957 | DEBUG    | bilisession:UploadVideo:435 - Opened file 17aI9cZk5ag.mp4 (409983 B) for reading
+2021-03-20 14:21:03.239 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2c4opo6mxw7vs1j5gy0yi18.mp4
+2021-03-20 14:21:03.240 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 14:21:03.617 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 1
+2021-03-20 14:21:03.618 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 14:21:03.618 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 14:21:03.623 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 14:21:04.290 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 14:21:04.609 | INFO     | __main__:upload_sources:91 - Upload complete
+2021-03-20 14:21:04.779 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 14:21:04.779 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `我的世界|这是嘛曲`
+2021-03-20 14:21:04.861 | INFO     | __main__:upload_sources:122 - Upload success - BVid: BV1yN411Q7hD
+2021-03-20 14:55:47.176 | WARNING  | __main__:start:173 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 14:55:47.177 | INFO     | __main__:__tasks__:139 - Total tasks: 1
+2021-03-20 14:55:47.207 | INFO     | __main__:download_sources:36 -   - 解析设置 : format=best
+2021-03-20 14:55:47.208 | INFO     | __main__:download_sources:36 -   - 分区 ID : 17
+2021-03-20 14:55:47.208 | INFO     | __main__:download_sources:36 -   - 标签 : 我的世界,minecraft
+2021-03-20 14:55:47.209 | INFO     | __main__:download_sources:36 -   - 描述格式 e.g. ％(desc)s : 村民：又是阳光明媚的一天！
+2021-03-20 14:55:47.209 | INFO     | __main__:download_sources:36 -   - 标题格式 e.g. ％(title)s : 我的世界|这是嘛曲？
+2021-03-20 14:55:47.209 | INFO     | __main__:download_sources:36 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 14:55:47.210 | INFO     | __main__:download_sources:36 -   - 只下载资源 : 0
+2021-03-20 14:55:50.880 | INFO     | __main__:upload_sources:66 - Processing total of 1 sources
+2021-03-20 14:55:50.886 | INFO     | __main__:upload_sources:77 - Uploading: 我的世界|这是嘛曲
+2021-03-20 14:55:50.886 | DEBUG    | bilisession:UploadVideo:435 - Opened file Rzfa_tceQn4.mp4 (12548695 B) for reading
+2021-03-20 14:55:51.438 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws1i233hyj1jdmflnqe7fmrgj.mp4
+2021-03-20 14:55:51.439 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 14:55:51.848 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 2
+2021-03-20 14:55:51.848 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 14:55:51.848 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 14:55:51.854 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 14:56:18.338 | WARNING  | __main__:start:173 - Bilibili-toolman - operating as 写我的笔
+2021-03-20 14:56:18.339 | INFO     | __main__:__tasks__:139 - Total tasks: 1
+2021-03-20 14:56:18.369 | INFO     | __main__:download_sources:36 -   - 解析设置 : format=best
+2021-03-20 14:56:18.369 | INFO     | __main__:download_sources:36 -   - 分区 ID : 17
+2021-03-20 14:56:18.369 | INFO     | __main__:download_sources:36 -   - 标签 : 我的世界,minecraft
+2021-03-20 14:56:18.370 | INFO     | __main__:download_sources:36 -   - 描述格式 e.g. ％(desc)s : 村民：活久见！
+2021-03-20 14:56:18.370 | INFO     | __main__:download_sources:36 -   - 标题格式 e.g. ％(title)s : 我的世界|牛牛？
+2021-03-20 14:56:18.370 | INFO     | __main__:download_sources:36 -   - 多个视频独立投稿（不分P） : 1
+2021-03-20 14:56:18.371 | INFO     | __main__:download_sources:36 -   - 只下载资源 : 0
+2021-03-20 14:56:20.374 | INFO     | __main__:upload_sources:66 - Processing total of 1 sources
+2021-03-20 14:56:20.380 | INFO     | __main__:upload_sources:77 - Uploading: 我的世界|牛牛
+2021-03-20 14:56:20.381 | DEBUG    | bilisession:UploadVideo:435 - Opened file Rzfa_tceQn4.mp4 (12548695 B) for reading
+2021-03-20 14:56:20.623 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320wsyko8soj2qs1ndzg1tml9eb5.mp4
+2021-03-20 14:56:20.623 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (1)
+2021-03-20 14:56:20.911 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 14:56:22.141 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws1vnj72smy8y81yiermji83s.mp4
+2021-03-20 14:56:22.141 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (2)
+2021-03-20 14:56:22.353 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 14:56:23.574 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2ca0vaeb8vl8err7rn5h9t1.mp4
+2021-03-20 14:56:23.575 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (3)
+2021-03-20 14:56:23.789 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 14:56:25.013 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2zflrbkzob0nwy838wdo7fh.mp4
+2021-03-20 14:56:25.013 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (4)
+2021-03-20 14:56:25.224 | ERROR    | bilisession:fetch_upload_id:451 - Unable to upload the video as the server has rejected our request,retrying
+2021-03-20 14:56:26.444 | DEBUG    | bilisession:fetch_upload_id:446 - Endpoint URL https://upos-sz-upcdnws.bilivideo.com/ugcboss/m210320ws2mu05ksyfn95qwre6faxkbd.mp4
+2021-03-20 14:56:26.444 | DEBUG    | bilisession:fetch_upload_id:447 - Fetching token (5)
+2021-03-20 14:56:26.658 | DEBUG    | bilisession:generate_upload_chunks:462 - Upload chunks: 2
+2021-03-20 14:56:26.658 | DEBUG    | bilisession:generate_upload_chunks:463 - Upload chunk size: 8388608
+2021-03-20 14:56:26.658 | DEBUG    | bilisession:generate_upload_chunks:464 - Upload threads: 3
+2021-03-20 14:56:26.659 | DEBUG    | bilisession:UploadVideo:497 - Waiting for uploads to finish
+2021-03-20 14:56:37.012 | DEBUG    | bilisession:UploadVideo:505 - Successfully finished uploading
+2021-03-20 14:56:37.543 | INFO     | __main__:upload_sources:91 - Upload complete
+2021-03-20 14:56:37.750 | WARNING  | bilisession:SubmitVideo:547 - Posting multipule submissions
+2021-03-20 14:56:37.751 | DEBUG    | bilisession:SubmitVideo:549 - Posting single submission `我的世界|牛牛`
+2021-03-20 14:56:37.836 | SUCCESS  | __main__:upload_sources:122 - Upload success - BVid: BV1tK4y1U7vf
