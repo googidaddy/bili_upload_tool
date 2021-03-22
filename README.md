@@ -1,5 +1,5 @@
 # bili_upload_tool
-**上传视频到b站工具**
+**搬运视频到b站工具**
 
 ## docker(推荐)
 
