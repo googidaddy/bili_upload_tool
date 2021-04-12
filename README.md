@@ -12,6 +12,7 @@
   ```
 
 Finally you can visit the website like <u>yoursite:9090</u>
+<img src="https://raw.githubusercontent.com/googidaddy/img/master/20210412155523.png" alt="例图">
 
 ## 感谢
 
