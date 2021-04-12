@@ -1,14 +1,11 @@
 import os
-import argparse
 from loguru import logger;
 import logging;
 import providers
 from pathlib import Path
 
 pbar = None
-# put your data from bili!
-global_args = {'cookies': 'SESSDATA=xxxxxxx;bili_jct=xxxxxx',
-               'show_progress': 1}
+
 local_args = {
     'opts':('解析设置',''),
     'thread_id': ('分区 ID',17),

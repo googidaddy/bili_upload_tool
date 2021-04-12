@@ -12,6 +12,7 @@ app = Flask(__name__, static_folder='./dist/assets', template_folder='./dist')
 def index():
     return render_template("index.html")
 
+
 '''receive data from your website'''
 @app.route('/upload', methods=["POST"])
 def upload():
@@ -21,7 +22,9 @@ def upload():
                    'desc_fmt': f"{data['desc']}", 'title_fmt': f"{data['title']}", 'seperate_parts': 1, 'no_upload': 0,
                    'localfile': None, 'youtube': f"{data['link']} --no-check-certificate",
                    'resource': f"{data['link']}"}]
-    msg = bili.start(args)
+    global_args = {'cookies': f'SESSDATA={data["cookies"]};bili_jct={data["bili_jct"]}',
+               'show_progress': 1}
+    msg = bili.start(args,global_args)
     return msg
 
 

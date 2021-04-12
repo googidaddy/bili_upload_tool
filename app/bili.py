@@ -5,13 +5,12 @@ from providers import DownloadResult
 from providers import youtube
 from utils import prepare_temp, report_progress, save_cookies, load_cookies,  sanitize_string, \
     truncate_string, local_args as largs
-from utils import global_args
 import sys, time, urllib.parse
 from loguru import logger
 
 sess = BiliSession()
 logger.add("err.log", encoding="utf-8", enqueue=True)
-
+global_args = {}
 
 
 def download_sources(arg) -> DownloadResult:
@@ -146,9 +145,11 @@ def __tasks__(local_args):
     return 'upload failed'
 
 
-def start(a):
+def start(a,b):
     '''Parsing args'''
-    save_cookies(global_args['cookies'])
+    global global_args
+    global_args = b
+    save_cookies(b['cookies'])
     '''Saving / Loading cookies'''
     if not setup_session(load_cookies()):
         logger.error('Unable to set working directory,quitting')
