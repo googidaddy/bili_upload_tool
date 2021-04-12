@@ -2,33 +2,14 @@
 **搬运视频到b站工具**
 
 ## docker(推荐)
-
-- clone the project
-
-  [change to your bili secret!](https://github.com/googidaddy/bili_upload_tool/blob/202c1615f444413e4d6528b0b96722221024dc12/app/utils/__init__.py#L10)
-
-  [Guide to get your secret!](https://github.com/Passkou/bilibili-api#%E8%8E%B7%E5%8F%96-sessdata-%E5%92%8C-csrf)
-
-- cd project 
-
-```
-.
-├── app
-│   └── main.py
-└── Dockerfile
-```
-
-- Build your Flask image
-
-```
-docker build -t myimage .
-```
-
-- Run a container based on your image
-
-```
-docker run -d --name mycontainer -p 9090:9090 myimage
-```
+  [已上传至docker hub](https://hub.docker.com/r/sicko1111/sicko)
+  **一键pull加run部署**
+  ```
+  docker pull sicko1111/sicko
+  ```
+  ```
+  docker run -d --name mycontanier -p 9090:9090 sicko1111/sicko
+  ```
 
 Finally you can visit the website like <u>yoursite:9090</u>
 
