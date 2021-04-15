@@ -17,9 +17,7 @@ Finally you can visit the website like <u>yoursite:9090</u>
 ## 感谢
 
 [Passkou-API](https://github.com/Passkou/bilibili-api)
-
 [Youtube-dl](https://github.com/ytdl-org/youtube-dl)
-
 [thanks!mos9527](https://github.com/greats3an)
 [thanks!tiangolo](https://github.com/tiangolo)
 
