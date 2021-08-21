@@ -18,7 +18,7 @@
   ```
   docker-compose up -d
   ```
-Finally you can visit the website like <u>yoursite:8080</u>
+最后打开网站 <u>yoursite:8080</u>
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/img/bili_release.png" alt="例图">
 
@@ -40,7 +40,7 @@ Finally you can visit the website like <u>yoursite:8080</u>
 
 [Passkou-API](https://github.com/Passkou/bilibili-api)
 [Youtube-dl](https://github.com/ytdl-org/youtube-dl)
-
+[ForgQi](https://github.com/ForgQi)
 Donate for a coffee!
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/wechat_pay.jpg" alt="donate by wechat" style="zoom:20%;" />

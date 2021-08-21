@@ -208,16 +208,9 @@ class BiliBili:
         auto_os['cost'] = min_cost
         return auto_os
 
-    def upload_file(self, filepath: str, lines='ws', tasks=3):
-        """上传本地视频文件,返回视频信息dict
-        b站目前支持4种上传线路upos, kodo, gcs, bos
-        gcs: {"os":"gcs","query":"bucket=bvcupcdngcsus&probe_version=20200810",
-        "probe_url":"//storage.googleapis.com/bvcupcdngcsus/OK"},
-        bos: {"os":"bos","query":"bucket=bvcupcdnboshb&probe_version=20200810",
-        "probe_url":"??"}
-        """
+    def upload_file(self, filepath: str, lines='AUTO', tasks=3):
         if not self._auto_os:
-            # self._auto_os = self.probe()
+            self._auto_os = self.probe()
             if lines == 'kodo':
                 self._auto_os = {"os": "kodo", "query": "bucket=bvcupcdnkodobm&probe_version=20200810",
                                  "probe_url": "//up-na0.qbox.me/crossdomain.xml"}
