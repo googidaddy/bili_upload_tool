@@ -1,7 +1,7 @@
 # bili_upload_tool
 **搬运视频到b站工具**
 
- [docker hub](https://hub.docker.com/r/sicko1111/sicko/tags?page=1&ordering=last_updated)([Github](https://github.com/googidaddy/bili_upload_tool))
+v0.0.1
 
 # 简介
 
@@ -13,6 +13,8 @@
 - 官方API，保证账号正常
 
 # 快速上手
+
+**先**
 
   ```
   docker pull sicko1111/sicko:1.0
