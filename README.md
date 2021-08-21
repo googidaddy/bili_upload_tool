@@ -1,8 +1,6 @@
 # bili_upload_tool
 **搬运视频到b站工具**
 
-v0.0.1
-
 # 简介
 
 这是一个用Python写的搬运视频并上传到[Bilibili](https://www.bilibili.com/)(Web)的工具
@@ -11,19 +9,16 @@ v0.0.1
 
 - 无需调试更改代码
 - 官方API，保证账号正常
+- 更换Fastapi异步框架，快人亿步！
 
 # 快速上手
 
-**先**
+**[调整参数](https://github.com/googidaddy/bili_upload_tool/blob/e57fdc909d58a383786df39e2d8314b1bc8e1885/nginx/nginx.conf#L10)**
 
   ```
-  docker pull sicko1111/sicko:1.0
+  docker-compose up -d
   ```
-  ```
-  docker run -d --name mycontanier -p 9080:9080 sicko1111/sicko
-  ```
-
-Finally you can visit the website like <u>yoursite:9080</u>
+Finally you can visit the website like <u>yoursite:8080</u>
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/img/bili_release.png" alt="例图">
 
@@ -32,6 +27,10 @@ Finally you can visit the website like <u>yoursite:9080</u>
 **Q：部署过程中有问题怎么办？**
 
 **A：请提[issue](https://github.com/googidaddy/bili_upload_tool/issues/new)**
+
+**Q：有时上传失败咋办？**
+
+**A：再提交多次**
 
 **Q：更新频率？**
 
