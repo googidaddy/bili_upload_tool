@@ -8,6 +8,6 @@ RUN apt-get update -y &&\
     pip install --no-cache-dir fastapi &&\
     pip install -r /app/requirements.txt
 
-CMD ["uvicorn"," --port 9090 --host 0.0.0.0 --reload main:app"]
+CMD ["uvicorn", "--port", "9090", "--host", "0.0.0.0", "--reload", "main:app"]
 
 

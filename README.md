@@ -13,7 +13,7 @@
 
 # 快速上手
 
-**[调整参数](https://github.com/googidaddy/bili_upload_tool/blob/e57fdc909d58a383786df39e2d8314b1bc8e1885/nginx/nginx.conf#L10)**
+**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/e57fdc909d58a383786df39e2d8314b1bc8e1885/nginx/nginx.conf#L10)**
 
   ```
   docker-compose up -d
