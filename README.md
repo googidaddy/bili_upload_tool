@@ -19,6 +19,7 @@
   docker-compose up -d
   ```
 最后打开网站 <u>yoursite:8080</u>
+**建议等10-30s后台启动，测试<u>yoursite:9090</u>，有Hello返回即可。**
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/img/bili_release.png" alt="例图">
 
