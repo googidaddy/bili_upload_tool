@@ -4,10 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-youtube-dl = "*"
+yt-dlp = "*"
+pydantic = "*"
 loguru = "*"
-bilibili-api = "*"
-flask = "*"
+pyopenssl = "*"
+python-dotenv = "*"
+aiohttp = "*"
+requests = "*"
+rsa = "*"
 biliup = "*"
 
 [dev-packages]

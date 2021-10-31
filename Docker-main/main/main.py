@@ -23,18 +23,15 @@ class Item(BaseModel):
     id: str
     tag: str
     desc: str
-    sessdata: str
-    bili_jct: str
-    buvid3: str
 
 @app.get("/")
 def root():
     return {"Hello": "API"}
 
 @app.post("/upload")
-async def upload(data: Item):
+def upload(data: Item):
     # Get data from website.
-    res = await main(data.dict())
+    res = main(data.dict())
     logger.info("上传情况", res)
     return res
 

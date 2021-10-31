@@ -2,6 +2,8 @@
 import os
 from plugins.bili_webup import BiliBili, Data
 from download import download_clip
+from dotenv import load_dotenv
+load_dotenv()
 
 def main(data):
     video = Data()
@@ -13,11 +15,10 @@ def main(data):
     video_info = download_clip(data.get("link"))
     video_path = video_info.get("video_path")
     cover_path = video_info.get("cover_path")
-    csrf = data.get("bili_jct")
-    sessdata = data.get("sessdata")
-    buvid3 = data.get("buvid3")
+    csrf = os.getenv('BILI_JCT')
+    sessdata = os.getenv('SESSDATA')
+    buvid3 = os.getenv('BUVID3')
     with BiliBili(video, sessdata, csrf, buvid3) as bili:
-
         video_part = bili.upload_file(video_path)
         video.videos.append(video_part) 
         video.cover = bili.cover_up(cover_path).replace('http:', '')
