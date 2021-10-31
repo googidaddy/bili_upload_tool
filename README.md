@@ -10,6 +10,7 @@
 - 无需调试更改代码
 - 官方API，保证账号正常
 - 更换Fastapi异步框架，快人亿步！
+- 持续更新，**用爱发电**
 
 # 快速上手
 
@@ -36,6 +37,10 @@
 **Q：更新频率？**
 
 **A：空闲都会维护**
+
+# 更新
+
+[详情请点这里](https://github.com/googidaddy/bili_upload_tool/tree/main/CHANGELOGS)
 
 # 感谢
 

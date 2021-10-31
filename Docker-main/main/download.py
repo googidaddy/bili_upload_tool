@@ -1,22 +1,24 @@
 # -*- coding: UTF-8 -*-
-import youtube_dl
+import yt_dlp
+import os
 from loguru import logger
-
+from dotenv import load_dotenv
+load_dotenv()
 logger.add("download.log", rotation="50MB", encoding="utf-8", enqueue=True)
 
-youtube_dl.utils.std_headers['User-Agent'] = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+yt_dlp.utils.std_headers['User-Agent'] = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
 
 
 def download_clip(url):
     video_info = {}
     ydl_opts = {
-        'format': 'best',
+        'format': 'bestvideo+bestaudio/best',
         'outtmpl': '%(id)s.%(ext)s',
-        'writethumbnail': True  # Download Thumbnail
+        'writethumbnail': True,  # Download Thumbnail
+        'proxy':os.getenv('PROXY')
     }
     try:
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            # ydl.cache.remove()
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(url, download=False)
             video_info["title"] = info_dict.get("title")
             video_info["cover"] = info_dict.get("thumbnail")
