@@ -1,4 +1,4 @@
-# bili_upload_tool
+bili_upload_tool
 
 **搬运视频到 b 站工具**
 
@@ -8,14 +8,15 @@
 
 ## 特色
 
-- 无需调试更改代码
+- Docker容器化
+- 无需处理任何操作环境
 - 官方 API，保证账号正常
 - 更换 Fastapi 异步框架，快人亿步！
 - 持续更新，**用爱发电**
 
 # 快速上手
 
-**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/e57fdc909d58a383786df39e2d8314b1bc8e1885/nginx/nginx.conf#L10)**
+**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/5a2d9a51783cc55aa00f304ded88d7766bbe67df/nginx/nginx.conf#L10)**
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/e93a1c0813e91164a1704a50e0871511463173cc/Docker-main/main/.env)**
 
 ```
