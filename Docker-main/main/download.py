@@ -3,6 +3,7 @@ import yt_dlp
 import os
 from loguru import logger
 from dotenv import load_dotenv
+from PIL import Image
 load_dotenv()
 logger.add("download.log", rotation="50MB", encoding="utf-8", enqueue=True)
 
@@ -26,6 +27,8 @@ def download_clip(url):
             video_info["video_path"] = "%s.%s" % (info_dict["display_id"], info_dict["ext"])
             video_info["cover_path"] = "%s.%s" % (info_dict["display_id"], "jpg")
             ydl.download([url])
+            im = Image.open("%s.%s" % (info_dict["display_id"],"webp")).convert("RGB")
+            im.save("%s.%s" % (info_dict["display_id"], "jpg"),"jpeg")
             logger.info("Successfully Download", [url])
             return video_info
     except Exception as e :
