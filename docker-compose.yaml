@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3'
 services:
   web:
     build: web
@@ -9,6 +9,9 @@ services:
     ports:
       - 9090:9090
   nginx:
-    build: nginx
+    container_name: nginx
+    image: nginx:alpine
     ports:
-      - 8080:8080
+      - 80:80
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/
