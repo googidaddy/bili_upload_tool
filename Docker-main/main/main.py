@@ -22,7 +22,7 @@ class Item(BaseModel):
     title: str
     id: str
     tag: str
-    desc: str
+    des: str
 
 @app.get("/")
 def root():
