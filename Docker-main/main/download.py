@@ -3,6 +3,7 @@ import yt_dlp
 import os
 from loguru import logger
 from dotenv import load_dotenv
+from PIL import Image
 load_dotenv()
 logger.add("download.log", rotation="50MB", encoding="utf-8", enqueue=True)
 
@@ -12,9 +13,11 @@ yt_dlp.utils.std_headers['User-Agent'] = 'Mozilla/5.0 (compatible; Googlebot/2.1
 def download_clip(url):
     video_info = {}
     ydl_opts = {
-        'format': 'bestvideo+bestaudio/best',
+        'format': 'best',
         'outtmpl': '%(id)s.%(ext)s',
+        # 'skip_download':True,
         'writethumbnail': True,  # Download Thumbnail
+        # 'writeallthumbnails': True,
         'proxy':os.getenv('PROXY')
     }
     try:
@@ -26,6 +29,8 @@ def download_clip(url):
             video_info["video_path"] = "%s.%s" % (info_dict["display_id"], info_dict["ext"])
             video_info["cover_path"] = "%s.%s" % (info_dict["display_id"], "jpg")
             ydl.download([url])
+            im = Image.open("%s.%s" % (info_dict["display_id"],"webp")).convert("RGB")
+            im.save("%s.%s" % (info_dict["display_id"], "jpg"),"jpeg")
             logger.info("Successfully Download", [url])
             return video_info
     except Exception as e :
