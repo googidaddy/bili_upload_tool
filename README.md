@@ -20,17 +20,20 @@
 
 # 快速上手
 
-~~**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/5a2d9a51783cc55aa00f304ded88d7766bbe67df/nginx/nginx.conf#L10)**~~
+~~**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/1ccd16014f9490fcc30e0ff5920b090581047d85/nginx/nginx.conf#L3)**~~
+
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/e93a1c0813e91164a1704a50e0871511463173cc/Docker-main/main/.env)**
+
+**[3.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/fc81132ada052726b5769d5aa84f5a101f8e49dc/Docker-main/main/main.py#L17)**
 
 ```
 docker-compose up -d
 ```
 
-最后打开网站 <u>yoursite:8080</u>
-**建议等 10-30s 后台启动，测试<u>yoursite:9090</u>，有 Hello 返回即可。**
+**最后打开网站 <u>yoursite:3000</u>**
+**测试：<u>yoursite:9090</u>，有 Hello 返回即可。**
 
-<img src="https://raw.githubusercontent.com/googidaddy/img/master/img/20211031231624.png" alt="例图">
+![example](https://raw.githubusercontent.com/googidaddy/img/master/img/20211121152312.png)
 
 # FAQ
 
@@ -48,7 +51,7 @@ docker-compose up -d
 
 # 更新
 
-[详情请点这里](https://github.com/googidaddy/bili_upload_tool/tree/main/CHANGELOGS)
+[详情请点这里](https://github.com/googidaddy/bili_upload_tool/tree/master/CHANGELOGS)
 
 # 感谢
 
