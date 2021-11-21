@@ -14,10 +14,7 @@ logger.add("main.log", rotation="50MB", encoding="utf-8", enqueue=True)
 
 app = FastAPI()
 origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
-    "http://localhost",
-    "http://localhost:3000",
+    "http://你的服务器ip:3000",
 ]
 
 app.add_middleware(
