@@ -8,10 +8,3 @@ services:
     build: Docker-main
     ports:
       - 9090:9090
-  nginx:
-    container_name: nginx
-    image: nginx:alpine
-    ports:
-      - 80:80
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/conf.d/
