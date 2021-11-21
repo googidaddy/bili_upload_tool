@@ -13,7 +13,7 @@ yt_dlp.utils.std_headers['User-Agent'] = 'Mozilla/5.0 (compatible; Googlebot/2.1
 def download_clip(url):
     video_info = {}
     ydl_opts = {
-        'format': 'bestvideo+bestaudio/best',
+        'format': 'best',
         'outtmpl': '%(id)s.%(ext)s',
         'writethumbnail': True,  # Download Thumbnail
         'proxy':os.getenv('PROXY')

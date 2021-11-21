@@ -6,6 +6,10 @@ bili_upload_tool
 
 这是一个用 Python 写的搬运视频并上传到[Bilibili](https://www.bilibili.com/)(Web)的工具
 
+## 紧急Bug通知！
+
+**近期更新时，前端脱离nginx出现了未知错误，所以暂时下线nginx功能模块，并且新版本稳定性不太好，如介意请移步旧版本分支!!**
+
 ## 特色
 
 - Docker容器化

@@ -8,7 +8,7 @@ load_dotenv()
 def main(data):
     video = Data()
     video.title = data.get("title")
-    video.desc = data.get("desc")
+    video.desc = data.get("des")
     video.source = "www.youtube.com"
     video.tid = int(data.get("id"))
     video.set_tag(list(data.get("tag").split(",")))
