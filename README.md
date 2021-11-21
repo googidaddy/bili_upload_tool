@@ -8,7 +8,7 @@ bili_upload_tool
 
 ## 紧急Bug通知！
 
-**近期更新时，前端脱离nginx出现了未知错误，所以暂时下线nginx功能模块，并且新版本稳定性不太好，如介意请移步旧版本分支!!**
+**近期更新时，前端脱离nginx出现了未知错误，所以暂时下线nginx功能模块，并且新版本稳定性不太好，如介意请移步旧版本分支!! [旧版本](https://github.com/googidaddy/bili_upload_tool/tree/old)**
 
 ## 特色
 
@@ -20,7 +20,7 @@ bili_upload_tool
 
 # 快速上手
 
-**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/5a2d9a51783cc55aa00f304ded88d7766bbe67df/nginx/nginx.conf#L10)**
+~~**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/5a2d9a51783cc55aa00f304ded88d7766bbe67df/nginx/nginx.conf#L10)**~~
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/e93a1c0813e91164a1704a50e0871511463173cc/Docker-main/main/.env)**
 
 ```
