@@ -59,14 +59,17 @@ const A = styled.a`
 export const Form: React.FC<FormProps> = () => {
 	const Submit = async (e) => {
 		e.preventDefault()
-		const result = await fetch(`http://${window.location.hostname}/`, {
-			method: 'POST',
-			body: JSON.stringify(formData),
-			headers: {
-				'Content-Type': 'application/json',
-				Accept: 'application/json',
-			},
-		})
+		const result = await fetch(
+			`http://${window.location.hostname}:8080/upload`,
+			{
+				method: 'POST',
+				body: JSON.stringify(formData),
+				headers: {
+					'Content-Type': 'application/json',
+					Accept: 'application/json',
+				},
+			}
+		)
 		const res = await result.json()
 		console.log(res)
 	}
