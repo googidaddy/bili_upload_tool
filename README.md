@@ -31,7 +31,7 @@ docker-compose up -d
 
 ## 上传示例(Example)
 
-[aa](https://raw.githubusercontent.com/googidaddy/img/master/img/20211128152519.png)
+[这里查看上传示例](https://github.com/googidaddy/bili_upload_tool/tree/master/example)
 
 # FAQ
 
