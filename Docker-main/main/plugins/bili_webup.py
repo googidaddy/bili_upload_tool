@@ -208,7 +208,7 @@ class BiliBili:
         auto_os['cost'] = min_cost
         return auto_os
 
-    def upload_file(self, filepath: str, lines='AUTO', tasks=3):
+    def upload_file(self, filepath: str, lines='ws', tasks=3):
         if not self._auto_os:
             self._auto_os = self.probe()
             if lines == 'kodo':
@@ -322,7 +322,7 @@ class BiliBili:
             "X-Upos-Auth": auth
         }
         # 向上传地址申请上传，得到上传id等信息
-        upload_id = self.__session.post(f'{url}?uploads&output=json', timeout=5,
+        upload_id = self.__session.post(f'{url}?uploads&output=json', timeout=30,
                                         headers=headers).json()["upload_id"]
         # 开始上传
         parts = []  # 分块信息

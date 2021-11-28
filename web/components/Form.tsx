@@ -121,9 +121,7 @@ export const Form: React.FC<FormProps> = () => {
 								dispatch({ type: 'id', payload: e.target.value })
 							}
 						>
-							<option selected value={'21'}>
-								分区：生活
-							</option>
+							<option value={'21'}>分区：生活</option>
 							<option value={'27'}>动画(综合)</option>
 							<option value={'17'}>游戏(单机)</option>
 							<option value={'4'}>游戏(综合)</option>
