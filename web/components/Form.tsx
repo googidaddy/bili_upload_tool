@@ -60,13 +60,12 @@ export const Form: React.FC<FormProps> = () => {
 	const Submit = async (e) => {
 		e.preventDefault()
 		const result = await fetch(
-			`http://${window.location.hostname}:3000/upload`,
+			`http://${window.location.hostname}:9090/upload`,
 			{
 				method: 'POST',
 				body: JSON.stringify(formData),
 				headers: {
 					'Content-Type': 'application/json',
-					Accept: 'application/json',
 				},
 			}
 		)
