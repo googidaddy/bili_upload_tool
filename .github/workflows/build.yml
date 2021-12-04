@@ -1,39 +1,39 @@
 name: Sicko
 on:
   workflow_dispatch:
-    - inputs:
-        url:
-          description: '视频链接(参考模板)'
-          required: true
-          default: ''
-        title:
-          description: '视频标题'
-          required: true
-          default: ''
-        id:
-          description: '分区id'
-          required: true
-          default: ''
-        tag:
-          description: '标签(英文逗号隔开)'
-          required: true
-          default: ''
-        description:
-          description: '视频描述'
-          required: true
-          default: ''
-        sessdata:
-          description: 'sessdata'
-          required: true
-          default: ''
-        bili_jct:
-          description: 'bili_jct'
-          required: true
-          default: ''
-        buvid3:
-          description: 'buvid3'
-          required: true
-          default: ''
+    inputs:
+      url:
+        description: '视频链接(参考模板)'
+        required: true
+        default: ''
+      title:
+        description: '视频标题'
+        required: true
+        default: ''
+      id:
+        description: '分区id'
+        required: true
+        default: ''
+      tag:
+        description: '标签(英文逗号隔开)'
+        required: true
+        default: ''
+      description:
+        description: '视频描述'
+        required: true
+        default: ''
+      sessdata:
+        description: 'sessdata'
+        required: true
+        default: ''
+      bili_jct:
+        description: 'bili_jct'
+        required: true
+        default: ''
+      buvid3:
+        description: 'buvid3'
+        required: true
+        default: ''
 jobs:
   build:
     runs-on: ubuntu-latest
