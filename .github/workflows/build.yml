@@ -59,7 +59,6 @@ jobs:
           EOF
       - name: Install requirements
         run: |
-          apt-get install -y ca-certificates
           cd ${{ github.workspace }}/uploader
           pip3 install -r requirements.txt
           python3 upload.py
