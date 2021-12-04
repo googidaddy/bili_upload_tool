@@ -250,7 +250,7 @@ class BiliBili:
             }
             self.__session.headers.update({
   'authority': 'member.bilibili.com',
-  'sec-ch-ua': '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"',
+  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
   'sec-ch-ua-mobile': '?0',
   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36',
   'accept': '*/*',
@@ -264,7 +264,7 @@ class BiliBili:
 )
             res = self.__session.get(
                 "https://member.bilibili.com/preupload", params=query,
-                timeout=5)
+                timeout=30)
             if res.status_code != 200:
                 raise Exception(res)
             else:
