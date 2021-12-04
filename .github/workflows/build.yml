@@ -1,0 +1,65 @@
+name: Sicko
+on:
+  workflow_dispatch:
+    - inputs:
+        url:
+          description: '视频链接(参考模板)'
+          required: true
+          default: ''
+        title:
+          description: '视频标题'
+          required: true
+          default: ''
+        id:
+          description: '分区id'
+          required: true
+          default: ''
+        tag:
+          description: '标签(英文逗号隔开)'
+          required: true
+          default: ''
+        description:
+          description: '视频描述'
+          required: true
+          default: ''
+        sessdata:
+          description: 'sessdata'
+          required: true
+          default: ''
+        bili_jct:
+          description: 'bili_jct'
+          required: true
+          default: ''
+        buvid3:
+          description: 'buvid3'
+          required: true
+          default: ''
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: FedericoCarboni/setup-ffmpeg@v1
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Set env
+        run: |
+          cd ${{ github.workspace }}/uploader
+          cat << EOF > .env
+          URL=${{github.event.inputs.url}}
+          TITLE=${{github.event.inputs.title}}
+          ID=${{github.event.inputs.id}}
+          TAG=${{github.event.inputs.tag}}
+          DESCRIPTION=${{github.event.inputs.description}}
+          BILI_JCT=${{github.event.inputs.bili_jct}} >> .env
+          BUVID3=${{github.event.inputs.buvid3}} >> .env
+          SESSDATA=${{github.event.inputs.sessdata}} >> .env
+          EOF
+      - name: Install requirements
+        run: |
+          apt-get install -y ca-certificates
+          cd ${{ github.workspace }}/uploader
+          pip3 install -r requirements.txt
+          python3 upload.py
