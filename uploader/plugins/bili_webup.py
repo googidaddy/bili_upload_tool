@@ -19,7 +19,6 @@ import requests
 import rsa
 from requests.adapters import HTTPAdapter, Retry
 
-from biliup import config
 from engine import Plugin
 from engine.upload import UploadBase, logger
 
@@ -419,20 +418,20 @@ class BiliBili:
         return self.__session.post(f'https://member.bilibili.com/x/vu/web/add?csrf={self.csrf}', timeout=5,
                                    json=asdict(self.video)).json()
 
-    def submit_client(self):
-        logger.info('使用客户端api端提交')
-        if not self.access_token:
-            self.login_by_password(**config['user']['account'])
-            self.store()
-        while True:
-            ret = self.__session.post(f'http://member.bilibili.com/x/vu/client/add?access_key={self.access_token}',
-                                      timeout=5, json=asdict(self.video)).json()
-            if ret['code'] == -101:
-                logger.info(f'刷新token{ret}')
-                self.login_by_password(**config['user']['account'])
-                self.store()
-                continue
-            return ret
+    # def submit_client(self):
+    #     logger.info('使用客户端api端提交')
+    #     if not self.access_token:
+    #         self.login_by_password(**config['user']['account'])
+    #         self.store()
+    #     while True:
+    #         ret = self.__session.post(f'http://member.bilibili.com/x/vu/client/add?access_key={self.access_token}',
+    #                                   timeout=5, json=asdict(self.video)).json()
+    #         if ret['code'] == -101:
+    #             logger.info(f'刷新token{ret}')
+    #             self.login_by_password(**config['user']['account'])
+    #             self.store()
+    #             continue
+    #         return ret
 
     def cover_up(self, img: str):
         """
