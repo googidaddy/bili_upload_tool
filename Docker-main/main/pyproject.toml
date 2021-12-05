@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = ""
+authors = ["sicko <z1599137080@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+yt-dlp = "^2021.12.1"
+pydantic = "^1.8.2"
+loguru = "^0.5.3"
+python-dotenv = "^0.19.2"
+requests = "^2.26.0"
+biliup = "^0.1.9"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
