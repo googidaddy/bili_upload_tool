@@ -14,11 +14,13 @@
 - 更换 Fastapi 异步框架，快人亿步！
 - 持续更新
 
-# 快速上手
+# 快速部署（Docker-compose）
 
-~~**[1.调整参数](https://github.com/googidaddy/bili_upload_tool/blob/1ccd16014f9490fcc30e0ff5920b090581047d85/nginx/nginx.conf#L3)**~~
+**无需clone整个仓库!!!**
 
-**[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/e93a1c0813e91164a1704a50e0871511463173cc/Docker-main/main/.env)**
+**[1.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/8e7fdc40925a7823a2ea2c73a0986c0ecb70ab66/.env)**
+
+<u>**2.复制`docker-compose.yaml`和`.env`文件，然后执行以下代码**</u>
 
 ```
 docker-compose up -d
