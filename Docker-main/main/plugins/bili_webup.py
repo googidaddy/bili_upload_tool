@@ -208,7 +208,7 @@ class BiliBili:
         auto_os['cost'] = min_cost
         return auto_os
 
-    def upload_file(self, filepath: str, lines='ws', tasks=3):
+    def upload_file(self, filepath: str, lines='qn', tasks=3):
         if not self._auto_os:
             self._auto_os = self.probe()
             if lines == 'kodo':

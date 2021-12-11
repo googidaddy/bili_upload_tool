@@ -5,7 +5,7 @@ COPY ./main /app
 RUN apt-get update -y &&\
     apt-get install -y ca-certificates &&\
     apt-get install -y vim &&\
-    apt-get install ffmpeg &&\
+    apt-get install -y ffmpeg &&\
     pip install --no-cache-dir fastapi &&\
     pip install -r /app/requirements.txt
 
