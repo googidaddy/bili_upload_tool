@@ -9,7 +9,7 @@ services:
     ports:
       - 9090:9090
     volumes:
-      - ./env:/
+      - ./:/
   # nginx:
   #   image: nginx:alpine
   #   ports:
