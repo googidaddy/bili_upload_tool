@@ -1,6 +1,6 @@
 # ARM architecture
-FROM flyingjoe/uvicorn-gunicorn-fastapi:latest
-# FROM tiangolo/uvicorn-gunicorn:python3.9
+# FROM flyingjoe/uvicorn-gunicorn-fastapi:latest
+FROM tiangolo/uvicorn-gunicorn:python3.9
 
 COPY ./main /app
 WORKDIR /app
