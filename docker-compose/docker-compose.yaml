@@ -1,29 +1,32 @@
 version: '3'
-# services:
-#   web:
-#     image: sicko1111/bilibili_upload_tool_web:latest
-#     ports:
-#       - 3000:3000
-#   api:
-#     image: sicko1111/bilibili_upload_tool_api:latest
-#     ports:
-#       - 9090:9090
-#     volumes:
-#       - ./env:/env
+#  Docker Hub: https://hub.docker.com/repository/docker/sicko1111/bilibili_upload_tool_api
 services:
   web:
-    build: ../web
+    image: sicko1111/bilibili_upload_tool_web:latest
     ports:
       - 3000:3000
   api:
-    build: ../Docker-main
+    # Arm architecture please use: sicko1111/bilibili_upload_tool_api:arm
+    image: sicko1111/bilibili_upload_tool_api:latest
     ports:
       - 9090:9090
     volumes:
       - ./.env:/app/.env
-  # nginx:
-  #   image: nginx:alpine
-  #   ports:
-  #     - 80:80
-  #   volumes:
-  #     - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+# Local Deployment
+# services:
+#   web:
+#     build: ../web
+#     ports:
+#       - 3000:3000
+#   api:
+#     build: ../Docker-main
+#     ports:
+#       - 9090:9090
+#     volumes:
+#       - ./.env:/app/.env
+# nginx:
+#   image: nginx:alpine
+#   ports:
+#     - 80:80
+#   volumes:
+#     - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
