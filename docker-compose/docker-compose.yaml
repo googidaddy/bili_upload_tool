@@ -1,11 +1,22 @@
 version: '3'
+# services:
+#   web:
+#     image: sicko1111/bilibili_upload_tool_web:latest
+#     ports:
+#       - 3000:3000
+#   api:
+#     image: sicko1111/bilibili_upload_tool_api:latest
+#     ports:
+#       - 9090:9090
+#     volumes:
+#       - ./env:/env
 services:
   web:
-    image: sicko1111/bilibili_upload_tool_web:latest
+    build: ../web
     ports:
       - 3000:3000
   api:
-    image: sicko1111/bilibili_upload_tool_api:latest
+    build: ../Docker-main
     ports:
       - 9090:9090
     volumes:
