@@ -4,7 +4,7 @@
 
 # 简介
 
-这是一个用 Python 写的搬运视频并上传到[Bilibili](https://www.bilibili.com/)(Web)的工具
+这是一个用 `Python`写的搬运视频并上传到[Bilibili](https://www.bilibili.com/)(Web)的工具
 
 ## 特色
 
@@ -18,9 +18,13 @@
 
 **无需clone整个仓库!!!**
 
-**[1.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/8e7fdc40925a7823a2ea2c73a0986c0ecb70ab66/.env)**
+### 如果是Arm架构[请修改](https://github.com/googidaddy/bili_upload_tool/blob/d457a2caf0674145d2ce9da2ddd5fde4ff2b382c/docker-compose/docker-compose.yaml#L9)
 
-<u>**2.复制`docker-compose.yaml`和`.env`文件，然后执行以下代码**</u>
+<u>**1.[复制`docker-compose.yaml`和`.env`文件](https://github.com/googidaddy/bili_upload_tool/tree/master/docker-compose)**</u>
+
+**[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/master/docker-compose/.env)**
+
+<u>**3.然后执行以下代码**</u>
 
 ```
 docker-compose up -d

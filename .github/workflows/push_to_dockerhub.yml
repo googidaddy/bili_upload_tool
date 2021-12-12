@@ -27,6 +27,7 @@ jobs:
           key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-buildx-
+
       - name: Build and push api-arm
         if: contains(github.event.head_commit.message, 'api-arm')
         uses: docker/build-push-action@v2
@@ -35,6 +36,8 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/bilibili_upload_tool_api:arm
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
 
       - name: Build and push api-x86_64
         if: contains(github.event.head_commit.message, 'api')
@@ -44,6 +47,8 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/bilibili_upload_tool_api:latest
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
 
       - name: Build and push web
         if: contains(github.event.head_commit.message, 'web')
@@ -53,8 +58,8 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/bilibili_upload_tool_web:latest
-          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/bilibili_upload_tool_web:buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/bilibili_upload_tool_web,mode=max
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache
 
       - name: WeChat Work notification by text
         uses: chf007/action-wechat-work@master
