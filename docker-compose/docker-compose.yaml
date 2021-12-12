@@ -20,7 +20,7 @@ services:
     ports:
       - 9090:9090
     volumes:
-      - ./env:/env
+      - ./.env:/app/.env
   # nginx:
   #   image: nginx:alpine
   #   ports:
