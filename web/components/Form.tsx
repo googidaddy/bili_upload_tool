@@ -59,23 +59,24 @@ const A = styled.a`
 export const Form: React.FC<FormProps> = () => {
 	const Submit = async (e) => {
 		e.preventDefault()
-		const result = await fetch(
-			`http://${window.location.hostname}:9090/upload`,
-			{
-				method: 'POST',
-				body: JSON.stringify(formData),
-				headers: {
-					'Content-Type': 'application/json',
-				},
-			}
-		)
-		const res = await result.json()
-		console.log(res)
+		console.log({ formData })
+		// const result = await fetch(
+		// 	`http://${window.location.hostname}:9090/upload`,
+		// 	{
+		// 		method: 'POST',
+		// 		body: JSON.stringify(formData),
+		// 		headers: {
+		// 			'Content-Type': 'application/json',
+		// 		},
+		// 	}
+		// )
+		// const res = await result.json()
+		// console.log(res)
 	}
 	const initialFormState = {
 		link: '',
 		title: '',
-		id: '',
+		id: '21',
 		tag: '',
 		des: '',
 	}
@@ -128,12 +129,16 @@ export const Form: React.FC<FormProps> = () => {
 							<option value={'138'}>生活(搞笑)</option>
 							<option value={'24'}>MAD·AMV</option>
 							<option value={'25'}>MMD·3D</option>
-							<option value={'174'}>生活(其他)</option>
+							<option value={'168'}>生活(绘画)</option>
 							<option value={'130'}>音乐综合</option>
 							<option value={'65'}>游戏(网络)</option>
 							<option value={'136'}>音游</option>
 							<option value={'172'}>手机游戏</option>
 							<option value={'129'}>舞蹈</option>
+							<option value={'157'}>美妆护肤</option>
+							<option value={'71'}>综艺</option>
+							<option value={'164'}>健身</option>
+							<option value={'213'}>美食测评</option>
 						</Select>
 					</Inner>
 					<Info
