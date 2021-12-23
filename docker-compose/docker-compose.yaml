@@ -9,7 +9,7 @@ services:
     # Arm architecture please use: sicko1111/bilibili_upload_tool_api:arm
     image: sicko1111/bilibili_upload_tool_api:latest
     ports:
-      - 9090:9090
+      - 9080:9080
     volumes:
       - ./.env:/app/.env
 # Local Deployment
