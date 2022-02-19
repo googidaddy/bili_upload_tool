@@ -6,6 +6,8 @@
 
 这是一个用 `Python`写的搬运视频并上传到[Bilibili](https://www.bilibili.com/)(Web)的工具
 
+### **小声宣布：自动搬运工具可以测试了。**[传送门](https://github.com/googidaddy/bili-trash-bin)
+
 ## 特色
 
 - Docker容器化
@@ -59,9 +61,8 @@ docker-compose up -d
 
 # 感谢
 
-[Passkou-API](https://github.com/Passkou/bilibili-api)
-[Youtube-dl](https://github.com/ytdl-org/youtube-dl)
-[ForgQi](https://github.com/ForgQi)
+[yt-dlp for downloading](https://github.com/yt-dlp/yt-dlp)
+[ForgQi for upload](https://github.com/ForgQi)
 Donate for a coffee!
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/wechat_pay.jpg" alt="donate by wechat" style="zoom:20%;" />
