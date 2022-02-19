@@ -18,8 +18,6 @@
 
 **无需clone整个仓库!!!**
 
-### 如果是Arm架构[请修改](https://github.com/googidaddy/bili_upload_tool/blob/d457a2caf0674145d2ce9da2ddd5fde4ff2b382c/docker-compose/docker-compose.yaml#L9)
-
 <u>**1.[复制`docker-compose.yaml`和`.env`文件](https://github.com/googidaddy/bili_upload_tool/tree/master/docker-compose)**</u>
 
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/master/docker-compose/.env)**
@@ -31,7 +29,9 @@ docker-compose up -d
 ```
 
 **最后打开网站 <u>yoursite:3000</u>**
-**测试：<u>yoursite:9090</u>，有 Hello 返回即可。**
+**测试：<u>yoursite:20123</u>，有 Hello 返回即可。**
+
+### (Opt):如果是Arm架构[请修改](https://github.com/googidaddy/bili_upload_tool/blob/d457a2caf0674145d2ce9da2ddd5fde4ff2b382c/docker-compose/docker-compose.yaml#L9)
 
 ![example](https://raw.githubusercontent.com/googidaddy/img/master/img/20211121152312.png)
 
