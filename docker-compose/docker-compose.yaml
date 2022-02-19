@@ -9,7 +9,7 @@ services:
     # Arm architecture please use: sicko1111/bilibili_upload_tool_api:arm
     image: sicko1111/bilibili_upload_tool_api:latest
     ports:
-      - 9080:9080
+      - 20123:20123
     volumes:
       - ./.env:/app/.env
 # Local Deployment
@@ -21,12 +21,6 @@ services:
 #   api:
 #     build: ../Docker-main
 #     ports:
-#       - 9090:9090
+#       - 20123:20123
 #     volumes:
 #       - ./.env:/app/.env
-# nginx:
-#   image: nginx:alpine
-#   ports:
-#     - 80:80
-#   volumes:
-#     - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
