@@ -16,9 +16,9 @@
 
 # 快速部署（Docker-compose）
 
-**无需clone整个仓库!!!**
+**无需clone整个仓库!!!但是需要[安装Docker及Docker-compose环境](https://www.google.com/search?q=how+to+install+docker+and+docker+compose&newwindow=1&sxsrf=APq-WBvBNliwzgVbtNOuQqEHfDuMmjfrHg%3A1645278170257&ei=2vMQYtOrD8uf-AaM87GIAg&oq=how+to+install+docker+and+docker&gs_lcp=Cgdnd3Mtd2l6EAMYATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgQIABAeOgcIIxCwAxAnOgcIABBHELADSgQIQRgASgQIRhgAUJYDWNISYPgYaAFwAXgAgAFJiAHxBZIBAjExmAEAoAEByAEKwAEB&sclient=gws-wiz)**
 
-<u>**1.[复制`docker-compose.yaml`和`.env`文件](https://github.com/googidaddy/bili_upload_tool/tree/master/docker-compose)**</u>
+<u>**[1.复制`docker-compose.yaml`和`.env`文件](https://github.com/googidaddy/bili_upload_tool/tree/master/docker-compose)**</u>
 
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/master/docker-compose/.env)**
 
