@@ -47,6 +47,10 @@ docker-compose up -d
 
 **A：请提[issue](https://github.com/googidaddy/bili_upload_tool/issues/new)**
 
+**Q：需要进一步讨论？**
+
+**A：请提[discussions](https://github.com/googidaddy/bili_upload_tool/discussions/new?category=q-a)**
+
 **Q：有时上传失败咋办？**
 
 **A：再提交多次**
