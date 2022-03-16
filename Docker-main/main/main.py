@@ -40,7 +40,6 @@ def root():
 
 @app.post("/upload")
 def upload(data: Item):
-    # Get data from website.
     res = main(data.dict())
     logger.info("上传情况", res)
     return res
