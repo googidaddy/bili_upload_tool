@@ -23,7 +23,7 @@
 <u>**[1.复制`docker-compose.yaml`和`.env`文件](https://github.com/googidaddy/bili_upload_tool/tree/master/docker-compose)**</u>
 
 **[2.填入 Secret](https://github.com/googidaddy/bili_upload_tool/blob/master/docker-compose/.env)**
-
+![image](https://user-images.githubusercontent.com/39123862/168716336-aa39d4b5-d7b0-4c92-8e09-cf702fd6d0c4.png)
 <u>**3.然后执行以下代码**</u>
 
 ```
