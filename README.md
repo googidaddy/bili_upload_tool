@@ -59,7 +59,7 @@ docker-compose up -d
 
 **A：空闲都会维护**
 
-[电报群](https://t.me/sickolab)
+[电报群](https://t.me/sickoLab)
 
 # 更新
 
