@@ -59,7 +59,7 @@ docker-compose up -d
 
 **A：空闲都会维护**
 
-### [电报群](https://t.me/sickoLab)
+### [电报群-交流](https://t.me/shukechat)
 ### [推荐服务器3C3G, $24.28，大概164RMB 一年](https://my.racknerd.com/aff.php?aff=5023&pid=199)
 # 更新
 
