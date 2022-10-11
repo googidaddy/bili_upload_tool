@@ -126,6 +126,7 @@ export const Form: React.FC<FormProps> = () => {
 							<option value={'17'}>游戏(单机)</option>
 							<option value={'4'}>游戏(综合)</option>
 							<option value={'138'}>生活(搞笑)</option>
+							<option value={'95'}>科技·数码</option>
 							<option value={'24'}>MAD·AMV</option>
 							<option value={'25'}>MMD·3D</option>
 							<option value={'168'}>生活(绘画)</option>
