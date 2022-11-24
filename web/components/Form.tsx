@@ -132,7 +132,7 @@ export const Form: React.FC<FormProps> = () => {
 							<option value={'168'}>生活(绘画)</option>
 							<option value={'130'}>音乐综合</option>
 							<option value={'65'}>游戏(网络)</option>
-							<option value={'228'}>游戏(网络)</option>
+							<option value={'228'}>人文历史</option>
 							<option value={'136'}>音游</option>
 							<option value={'172'}>手机游戏</option>
 							<option value={'129'}>舞蹈</option>
