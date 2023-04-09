@@ -1,3 +1,5 @@
+# 暂时不再维护。
+~~
 # **bili_upload_tool**
 
 **搬运视频到 b 站工具**
@@ -74,3 +76,4 @@ Donate for a coffee!
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/wechat_pay.jpg" alt="donate by wechat" style="zoom:20%;" />
 
 <img src="https://raw.githubusercontent.com/googidaddy/img/master/alipay.jpg" alt="alipay" style="zoom:60%;" />
+~~
